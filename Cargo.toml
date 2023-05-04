@@ -1,0 +1,17 @@
+[package]
+name = "emoji-captcha-api"
+version = "0.1.0"
+edition = "2021"
+
+# This seems redundant, but it's necessary for Docker to work
+[[bin]]
+name = "emoji-captcha-api"
+path = "src/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = "0.6.18"
+image = "0.24.6"
+rand = "0.8.5"
+tokio = { version = "1.28.0", features = ["macros", "rt-multi-thread"] }
