@@ -10,6 +10,9 @@
 This was exclusively developed to be used in Telegram, but might be used
 anywhere else.
 
+Mirror on my
+[<img src="https://git.zeldon.ru/assets/img/logo.svg" align="center" width="20" height="20"/> Git](https://git.zeldon.ru/zeldon/emoji-captcha-api)
+
 ## Brief Description
 
 1. The client sends an HTTP request to the server.
